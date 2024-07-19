@@ -71,9 +71,9 @@ export class TranslationService {
       })
     })
     
-    return promisify()  //   try
+    return promisify()  // try
       .catch(promisify) // retry one
-      .catch(promisify) 
+      .catch(promisify) // retry two
   }
 
   /**
